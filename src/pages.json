@@ -1,0 +1,119 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"mp-navigation-bar": "/wxcomponents/navigation-bar/navigation-bar",
+					"mp-sticky": "/wxcomponents/sticky/index"
+				}
+			}
+		},
+		{
+			"path": "pages/explore/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"mp-navigation-bar": "/wxcomponents/navigation-bar/navigation-bar",
+					"mp-sticky": "/wxcomponents/sticky/index"
+				}
+			}
+		},
+		{
+			"path": "pages/zhanyi/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"mp-navigation-bar": "/wxcomponents/navigation-bar/navigation-bar",
+					"mp-sticky": "/wxcomponents/sticky/index"
+				}
+			}
+		},
+		{
+			"path": "pages/past/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"mp-navigation-bar": "/wxcomponents/navigation-bar/navigation-bar"
+				}
+			}
+		},
+		{
+			"path": "pages/other/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"usingComponents": {
+					"mp-navigation-bar": "/wxcomponents/navigation-bar/navigation-bar",
+					"mp-sticky": "/wxcomponents/sticky/index"
+				}
+			}
+		},
+		{
+			"path": "pages/other/special_list",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"usingComponents": {
+					"mp-navigation-bar": "/wxcomponents/navigation-bar/navigation-bar"
+				}
+			}
+		},
+		{
+			"path": "pages/other/search_list",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"usingComponents": {
+					"mp-navigation-bar": "/wxcomponents/navigation-bar/navigation-bar"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black",
+        "backgroundTextStyle": "light",
+        "backgroundColor": "#fff",
+		"backgroundColorTop": "#efefef"
+	},
+	"tabBar": {
+		"custom": true,
+		"color": "#333",
+		"selectedColor": "#333",
+		"backgroundColor": "#fff",
+		"list": [{
+			"iconPath": "static/tabbar/nav1_01.png",
+			"selectedIconPath": "static/tabbar/nav1_02.png",
+			"pagePath": "pages/home/index",
+			"text": "首页"
+		}, {
+			"iconPath": "static/tabbar/nav2_01.png",
+			"selectedIconPath": "static/tabbar/nav2_02.png",
+			"pagePath": "pages/explore/index",
+			"text": "科普探秘"
+		}, {
+			"iconPath": "static/tabbar/nav3_01.png",
+			"selectedIconPath": "static/tabbar/nav3_02.png",
+			"pagePath": "pages/zhanyi/index",
+			"text": "科技战疫"
+		}, {
+			"iconPath": "static/tabbar/nav4_01.png",
+			"selectedIconPath": "static/tabbar/nav4_02.png",
+			"pagePath": "pages/past/index",
+			"text": "往届回顾"
+		}]
+	},
+	"usingComponents": {}
+}
